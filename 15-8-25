@@ -1,0 +1,18 @@
+problm statement :-1  Python Program for Simple Interest
+The task of calculating Simple Interest in Python involves taking inputs for principal amount, time period in years, and rate of interest per annum, applying the Simple Interest formula and displaying the result. For example, if p = 1000, t = 2 (years), and r = 5%, the Simple Interest is calculated using the formula and resulting in Simple Interest = 100.0.
+Simple interest formula :
+
+ Simple Interest = (P x T x R)/100
+Using function
+Defining a function to calculate Simple Interest enhances readability and reusability. It is ideal when the calculation needs to be performed multiple times with different values. By calling the function with desired inputs, we get results without duplicating code, making the program cleaner and easier to maintain.
+
+def fun(p, t, r):
+    return (p * t * r) / 100
+
+p, t, r = 8, 6, 8
+
+res = fun(p, t, r)
+print(res)
+ o/p
+
+3.84
