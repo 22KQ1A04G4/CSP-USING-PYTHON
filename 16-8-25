@@ -1,0 +1,21 @@
+problem statement :-1 
+Python Program for Compound Interest
+Let us discuss the formula for compound interest. The formula to calculate compound interest annually is given by: 
+A = P(1 + R/100) t 
+Compound Interest = A - P 
+Where, 
+A is amount 
+P is the principal amount 
+R is the rate and 
+T is the time span
+
+coading:-
+def compound_interest(principal, rate, time):
+
+    Amount = principal * (pow((1 + rate / 100), time))
+    CI = Amount - principal
+    print("Compound interest is", CI)
+compound_interest(10000, 10.25, 5)
+
+output:-
+Compound interest is 6288.9462
